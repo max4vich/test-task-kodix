@@ -47,7 +47,6 @@ export default function PostDetail() {
         fetchPostDetails()
         fetchPostComments()
         fetchArticles()
-        console.log(articles)
     }, [id]);
 
     return (

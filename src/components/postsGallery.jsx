@@ -13,13 +13,8 @@ export default function PostsGallery(){
             console.error(e)
         }
     }
-
     useEffect(() => {
         fetchPosts()
-        setTimeout(()=>{
-            console.log(posts)
-        },1000)
-
     }, []);
 
 

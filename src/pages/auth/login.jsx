@@ -32,7 +32,7 @@ export default function Login() {
 
     return (
         <div className='w-[100vw] h-[100vh] bg-white flex justify-center items-center flex-col gap-[40px]'>
-            <img src={logo} className='w-[240px] h-[42px]'/>
+            <img src={logo} alt='logo' className='w-[240px] h-[42px]'/>
             <div
                 className='border-[1px] border-black flex justify-between w-[751px] rounded-[8px] bg-white shadow-[0px_1px_2px_0px_rgba(0,0,0,0.08)]'>
                 <div className='w-[484px] flex flex-col p-[32px]'>
@@ -72,7 +72,7 @@ export default function Login() {
                         </div>
 
                         <div className='mt-[24px]'>
-                            <a href="#" className="pt-[24px] text-[14px] text-[#04AA00] font-[Inter] font-normal">Forgot
+                            <a href="/" className="pt-[24px] text-[14px] text-[#04AA00] font-[Inter] font-normal">Forgot
                                 password?</a>
                         </div>
 

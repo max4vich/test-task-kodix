@@ -1,12 +1,9 @@
 import {Link, useLocation} from "react-router-dom";
-import {useEffect} from "react";
 
 export default function Navigation(){
     const location = useLocation();
     const isBlogPage = /^\/blog\/\d+$/.test(location.pathname);
-    useEffect(() => {
-        console.log(isBlogPage)
-    }, []);
+
     return (
         <div className='flex items-center'>
             <Link

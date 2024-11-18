@@ -6,7 +6,7 @@ export default function Hero() {
         <div className='z-10 mt-[34px] gap-[20px] flex items-center flex-col'>
             <div className='flex flex-col items-center gap-[20px]'>
                 <p className='flex gap-[8px] text-black text-[20px] font-[Inter] font-medium'>
-                    <img src={star}/>
+                    <img src={star} alt='star'/>
                     Featured
                 </p>
                 <div className='flex flex-col items-center gap-[8px]'>
